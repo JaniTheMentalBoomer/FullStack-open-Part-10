@@ -1,6 +1,4 @@
-# ~FullStack open PART 10~
-
-✅ Your project is ready!
+# FullStack open PART 10
 
 ## User Instructions for this repo:
 
@@ -17,4 +15,4 @@ To run your project, navigate to the directory and run one of the following npm 
 
 Was done with npm version 9.4.0
 
-Hours spent on this project: 1 hours
+**Hours spent on this project: 1 hours**
