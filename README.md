@@ -1,18 +1,21 @@
-# FullStack open PART 10
+# FullStack open Part 10
 
 ## User Instructions for this repo:
 
-### Before running the project install the required dependencies:
+### To run your project, navigate to the directory and install the required dependencies
 
--npm install
+- cd FullStack-open-Part-10
+- npm install
+- npm start
 
-To run your project, navigate to the directory and run one of the following npm commands.
+### Project has a problem with NodeJS versions newer than V 16.19.0 and a lot of people in the internet tell you to downgrade your Node version but it is recommended to add a workaround instead to the package.json scripts. This is because downgrading your Node Version can expose your app for security threats that have been fixed in newer versions!
 
-- cd rate-repository-app
-- npm run android
-- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
-- npm run web
+Add this to package.json scripts:
 
-Was done with npm version 9.4.0
+**For Windows:** "start": "set NODE_OPTIONS=--openssl-legacy-provider && expo start"
 
-**Hours spent on this project: 1 hours**
+**For MacOS** "start": "export NODE_OPTIONS=--openssl-legacy-provider && expo start"
+
+For this project I used NodeJS version v18.18.0
+
+**Hours spent on this project: 2 hours**
