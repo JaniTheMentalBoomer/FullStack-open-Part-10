@@ -18,4 +18,4 @@ Add this to package.json scripts:
 
 For this project I used NodeJS version v18.18.0
 
-**Hours spent on this project: 2 hours**
+**Hours spent on this project: 5 hours**
